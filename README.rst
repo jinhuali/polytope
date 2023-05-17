@@ -1,6 +1,19 @@
 Polytope
 ========
 
+---
+notes
+
+- how to edit installed pacakge
+https://stackoverflow.com/questions/23075397/python-how-to-edit-an-installed-package
+Fork the package/repo to your GitHub
+clone your forked version and create a new branch of your choice
+make changes and push code to the new branch on your repository
+you can easily use pip install -e git+repositoryurl@branchname
+
+---
+
+
 This is the source repository for ``polytope``, a toolbox for geometric
 operations on polytopes in any dimension.  Documentation is available in
 the directory ``doc/`` and also at https://tulip-control.github.io/polytope/
